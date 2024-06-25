@@ -42,7 +42,7 @@ jobs:
             lucasnogueira1325/ese-calorieservice:v1
             lucasnogueira1325/ese-foodgroup:v1
             lucasnogueira1325/ese-dailycalories:v1
-            
+          
   deploy_dev:
     needs: build
     runs-on: ubuntu-latest
